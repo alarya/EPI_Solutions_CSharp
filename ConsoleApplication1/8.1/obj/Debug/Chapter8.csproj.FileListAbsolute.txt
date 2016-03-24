@@ -1,0 +1,6 @@
+E:\Winter(2015)\C#EPI\ConsoleApplication1\8.1\obj\Debug\Chapter8.csprojResolveAssemblyReference.cache
+E:\Winter(2015)\C#EPI\ConsoleApplication1\8.1\obj\Debug\8.1.exe
+E:\Winter(2015)\C#EPI\ConsoleApplication1\8.1\obj\Debug\8.1.pdb
+E:\Winter(2015)\C#EPI\ConsoleApplication1\8.1\bin\Debug\8.1.exe.config
+E:\Winter(2015)\C#EPI\ConsoleApplication1\8.1\bin\Debug\8.1.exe
+E:\Winter(2015)\C#EPI\ConsoleApplication1\8.1\bin\Debug\8.1.pdb

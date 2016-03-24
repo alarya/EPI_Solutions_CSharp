@@ -1,0 +1,6 @@
+E:\Winter(2015)\C#EPI\ConsoleApplication1\Chapter11\bin\Debug\Chapter11.exe.config
+E:\Winter(2015)\C#EPI\ConsoleApplication1\Chapter11\bin\Debug\Chapter11.exe
+E:\Winter(2015)\C#EPI\ConsoleApplication1\Chapter11\bin\Debug\Chapter11.pdb
+E:\Winter(2015)\C#EPI\ConsoleApplication1\Chapter11\obj\Debug\Chapter11.csprojResolveAssemblyReference.cache
+E:\Winter(2015)\C#EPI\ConsoleApplication1\Chapter11\obj\Debug\Chapter11.exe
+E:\Winter(2015)\C#EPI\ConsoleApplication1\Chapter11\obj\Debug\Chapter11.pdb
