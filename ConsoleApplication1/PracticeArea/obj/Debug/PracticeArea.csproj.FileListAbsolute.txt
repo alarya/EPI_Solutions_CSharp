@@ -1,0 +1,6 @@
+E:\Winter(2015)\C#EPI\ConsoleApplication1\PracticeArea\obj\Debug\PracticeArea.csprojResolveAssemblyReference.cache
+E:\Winter(2015)\C#EPI\ConsoleApplication1\PracticeArea\bin\Debug\PracticeArea.exe.config
+E:\Winter(2015)\C#EPI\ConsoleApplication1\PracticeArea\bin\Debug\PracticeArea.exe
+E:\Winter(2015)\C#EPI\ConsoleApplication1\PracticeArea\bin\Debug\PracticeArea.pdb
+E:\Winter(2015)\C#EPI\ConsoleApplication1\PracticeArea\obj\Debug\PracticeArea.exe
+E:\Winter(2015)\C#EPI\ConsoleApplication1\PracticeArea\obj\Debug\PracticeArea.pdb

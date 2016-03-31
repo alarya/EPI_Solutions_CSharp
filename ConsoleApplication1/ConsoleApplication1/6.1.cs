@@ -22,7 +22,7 @@ namespace EPI6_1
         }
 
         /* Book solution */
-        public static void countSort(ref int[] Array, int index)
+        public static void Sort(ref int[] Array, int index)
         {
             int pivot = Array[index];
             int smaller = 0;
@@ -109,7 +109,7 @@ namespace EPI6_1
         static void Main(string[] args)
         {
             int[] Array = { 7, 8, 1, 3, 4, 10, 11 };
-            countSort(ref Array, 1);
+            Sort(ref Array, 1);
             Console.Out.WriteLine();
             for (int i =0; i < Array.Count() -1;i++)
             {
@@ -119,7 +119,7 @@ namespace EPI6_1
             Console.Out.WriteLine();
 
             int[] Array1 = { 11 , 8, 0 , 6, 4, 10, 11 };
-            countSort(ref Array1, 0);
+            Sort(ref Array1, 0);
             Console.Out.WriteLine();
             for (int i = 0; i < Array1.Count() - 1; i++)
             {
@@ -129,7 +129,7 @@ namespace EPI6_1
             Console.Out.WriteLine();
 
             int[] Array2 = { 11, 8, 0, 6, 4, 10, 11 };
-            countSort(ref Array2, 1);
+            Sort(ref Array2, 1);
             Console.Out.WriteLine();
             for (int i = 0; i < Array2.Count() - 1; i++)
             {
@@ -139,7 +139,7 @@ namespace EPI6_1
             Console.Out.WriteLine();
 
             int[] Array3 = { 1, 2, 3, 4, 4, 10, 11 };
-            countSort(ref Array3, 3);
+            Sort(ref Array3, 3);
             Console.Out.WriteLine();
             for (int i = 0; i < Array3.Count() - 1; i++)
             {

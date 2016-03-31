@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>TRACE;DEBUG;TEST_Q22</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;TEST_Q21</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -44,9 +44,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="6.1.cs" />
+    <Compile Include="6.15.cs" />
     <Compile Include="6.14.cs" />
     <Compile Include="6.19.cs" />
+    <Compile Include="6.2.cs" />
+    <Compile Include="6.21.cs" />
     <Compile Include="6.22.cs" />
+    <Compile Include="6.3.cs" />
+    <Compile Include="6.6.cs" />
+    <Compile Include="6.9.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -3,3 +3,4 @@ E:\Winter(2015)\C#EPI\ConsoleApplication1\Chapter13\bin\Debug\Chapter13.exe
 E:\Winter(2015)\C#EPI\ConsoleApplication1\Chapter13\bin\Debug\Chapter13.pdb
 E:\Winter(2015)\C#EPI\ConsoleApplication1\Chapter13\obj\Debug\Chapter13.exe
 E:\Winter(2015)\C#EPI\ConsoleApplication1\Chapter13\obj\Debug\Chapter13.pdb
+E:\Winter(2015)\C#EPI\ConsoleApplication1\Chapter13\obj\Debug\Chapter13.csprojResolveAssemblyReference.cache
