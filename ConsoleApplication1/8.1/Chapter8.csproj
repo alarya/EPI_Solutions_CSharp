@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>TRACE;DEBUG;TEST_Q9</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;TEST_Q10</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -44,7 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="8.1.cs" />
+    <Compile Include="8.10.cs" />
     <Compile Include="8.3.cs" />
+    <Compile Include="8.6.cs" />
     <Compile Include="8.9.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

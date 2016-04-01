@@ -36,6 +36,21 @@ namespace EPI7_9
 
             return curr;
         }
+        static node head;
+        static void recursiveReverse(node curr, node prev)
+        {
+            if (curr.next == null)
+            {
+                curr.next = prev;
+                head = curr;
+                return;
+            }
+            else
+                recursiveReverse(curr.next, curr);
+
+            curr.next = prev;
+
+        }
 #if (TEST_Q9)
         static void Main(string[] args)
         {
@@ -80,7 +95,10 @@ namespace EPI7_9
                 ptr = ptr.next;
             }
             Console.Out.WriteLine();
-            head = reverse(head);
+            //head = reverse(head);
+
+            recursiveReverse(head, null);
+            head = Program.head;
 
             Console.Out.WriteLine("Linked List After: ");
             ptr = head;
@@ -89,6 +107,8 @@ namespace EPI7_9
                 Console.Out.Write(ptr.value + " ");
                 ptr = ptr.next;
             }
+
+
 
             Console.ReadKey();
         }
