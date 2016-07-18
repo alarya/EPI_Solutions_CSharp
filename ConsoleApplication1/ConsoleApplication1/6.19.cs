@@ -38,6 +38,7 @@ namespace EPI6_Q19
                         endIndex = i - 1;
                     else
                         endIndex = i;   //to handle last word
+
                     //reverse the word
                     while (startIndex < endIndex)
                     {

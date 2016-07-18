@@ -14,7 +14,7 @@ namespace EPI15_Q11
 {
     class Program
     {
-        /* This solution may be wrong... will get back to it 
+        /* This solution may be wrong (although it works for the test cases)... will get back to it 
             The book uses some dynamic programming approach
             */
         static int minimumEdits(char[] A, char[] B)

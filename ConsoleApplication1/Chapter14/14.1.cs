@@ -23,8 +23,11 @@ namespace EPI14_Q1
     }
     class Program
     {
-        static int lastNode = -1;
+        static int lastNode = int.MinValue;
         static bool isBST = true;
+
+        /* instead of this we can store the nodes in an array in preorder and check if they are sorted */
+
         static void inorder(node _node)
         {
             if (_node.left != null)

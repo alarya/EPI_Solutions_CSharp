@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 
 /*
-    7.1 Write a function that takes L & F, returns the merge of L and F. Your code should
+    7.1 Write a function that takes L & F singly Linked List of numbers, returns the sorted merge of L and F. Your code should
     use O(1) additional storage - it should reuse the nodes from the lists provided as input
     Your function should use O(1) additional storage. The only field you can change in a node is next
 */

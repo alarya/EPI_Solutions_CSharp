@@ -33,13 +33,6 @@ namespace EPI11_Q1
                 else
                     U = M - 1;
             }
-            //if (foundIndex != -1)
-            //{
-            //    while (foundIndex >= 1 && Arr[foundIndex - 1] == Arr[foundIndex] )
-            //            foundIndex--;
-            //}
-            //else
-            //    return -1;
 
             return foundIndex;
         }
@@ -51,7 +44,7 @@ namespace EPI11_Q1
             //int[] Arr = new int[] { -14, -10, 2, 108, 108, 243, 285, 285, 285, 401 };
             int[] Arr = new int[] { 108, 108, 108, 108, 108, 243, 285, 285, 285, 401 };
 
-            int index = findK(Arr, 108);
+            int index = findK(Arr, 285);
             Console.Out.WriteLine("Found at: {0}", index);
 
             Console.ReadKey();

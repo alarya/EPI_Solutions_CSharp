@@ -8,34 +8,41 @@ namespace PracticeArea
 {
     class Program
     {
-        static void sort(ref int[] Arr, int index)
+        static int partition(ref int[] Arr, int low, int high)
         {
-            int number = Arr[index];
-            int smaller = 0;
-            int equal = 0;
-            int larger = Arr.Count() - 1;
+            int mid = low + (high - low) / 2;
+            int pivot = Arr[mid];   //assume mid to be pivot
 
-            while(equal <= larger)
+            //move mid to front
+            swap(ref Arr, mid, low);
+
+            int start = low + 1;
+            int end = high;
+            while(start <= end)
             {
-                if (Arr[equal] < number)
-                {
-                    swap(ref Arr, equal++, smaller++);
-                }
-                else if(Arr[equal] == number)
-                {
-                    ++equal;
-                }
-                else
-                {
-                    swap(ref Arr, equal, larger--);
-                }
+                while (start <= end && Arr[start] < pivot)
+                    start++;
+
+                while (start <= end && Arr[end] > pivot)
+                    end--;
+
+                if(start < end)                
+                    swap(ref Arr, start, end);
             }
-            
-            foreach(int n in Arr)
+            swap(ref Arr, start-1, low);
+
+            return start - 1;
+        }
+
+        static void quickSort(ref int[] Arr, int low, int high)
+        {
+            if (low < high)
             {
-                Console.Out.Write("{0} ",n);
+                int pivotIndex = partition(ref Arr, low, high);
+
+                quickSort(ref Arr, low, pivotIndex - 1);
+                quickSort(ref Arr, pivotIndex + 1, high);
             }
-            
         }
         static void swap(ref int[] Arr, int i, int j)
         {
@@ -45,8 +52,16 @@ namespace PracticeArea
         }
         static void Main(string[] args)
         {
-            int[] Array = { 7, 8, 1, 3, 4, 10, 4 };
-            sort(ref Array, 4);
+            int[] Array = { 7, 4, 1, 3, 0, 10, 8 };
+
+            quickSort(ref Array, 0, 6);
+
+            //partition(ref Array, 0, 6);
+
+            Console.Out.WriteLine();
+            foreach (var a in Array)
+                Console.Out.Write(a +" ");
+            Console.Out.WriteLine();
 
             Console.ReadKey();
         }
